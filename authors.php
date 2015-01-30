@@ -9,7 +9,7 @@
 <body>
 
 	<h3>Dulce et Decorum Est</h3>
-<p>
+<ul>
 
 <?php 
 
@@ -29,7 +29,7 @@ foreach ($authors as $year => $author) {
 
 ?>
 
-</p>
+</ul>
 
 </body>
 
