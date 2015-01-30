@@ -14,26 +14,15 @@
 <?php 
 
 $authors = array(
-	'Charles Dickens',
-	'William Thackeray',
-	'Anthony Trollope',
-	'Gerard Manley Hopkins'
+	"1870" => "Charles Dickens",
+	"1863" => "William Thackeray",
+	"1882" => "Anthony Trollope",
+	"1889" => "Gerard Manley Hopkins"
 	);
 
-$years = array(
-	'1870'
-	'1863'
-	'1882'
-	'1889'
-	);
 
-foreach($years as $year) {
-	echo $year;
-
-}
-
-foreach ($authors as $code => $author) {
-	echo "$code died in $year";
+foreach ($authors as $year => $author) {
+	echo "$author died in $year.<br>";
 
 }
 
